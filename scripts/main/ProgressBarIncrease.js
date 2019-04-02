@@ -19,7 +19,7 @@ function InitializeBars(direction) {
                 width: "40%"
             }, 999);
             $("#pb3").animate({
-                width: "50%"
+                width: "80%"
             }, 999);
             $("#pb4").animate({
                 width: "70%"
@@ -37,7 +37,7 @@ function InitializeBars(direction) {
                 width: "60%"
             }, 999);
             $("#pb9").animate({
-                width: "90%"
+                width: "50%"
             }, 999);
         }
     });

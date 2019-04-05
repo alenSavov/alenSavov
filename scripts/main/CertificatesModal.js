@@ -1,36 +1,30 @@
 (function f() {
     let pbModal = document.getElementById('pbModal');
     let stModal = document.getElementById('stModal');
-    let caModal = document.getElementById('caModal');
-    let cbModal = document.getElementById('cbModal');
-    let coaModal = document.getElementById('coaModal');
-    let jsfModal = document.getElementById('jsfModal');
-    let soonModal = document.getElementById('soonModal');
+    let dbModal = document.getElementById('dbModal');
+    let dbAModal = document.getElementById('dbAModal');
+    let cwModal = document.getElementById('cwModal');
+     let soonModal = document.getElementById('soonModal');
 
     let pbImg = document.getElementById('pbImg');
     let stImg = document.getElementById('stImg');
-    let caImg = document.getElementById('caImg');
-    let cbImg = document.getElementById('cbImg');
-    let coaImg = document.getElementById('coaImg');
-    let jsfImg = document.getElementById('jsfImg');
-    let soonImg = document.getElementById('soonImg');
+    let dbImg = document.getElementById('dbImg');
+    let dbAImg = document.getElementById('dbAImg');
+    let cwImg = document.getElementById('cwImg');
+     let soonImg = document.getElementById('soonImg');
 
     let pbModalImg = document.getElementById("pbImgF");
-    let pfModalImg = document.getElementById("pfImgF");
     let stModalImg = document.getElementById("stImgF");
-    let caModalImg = document.getElementById("caImgF");
-    let cbModalImg = document.getElementById("cbImgF");
-    let coaModalImg = document.getElementById("coaImgF");
-    let jsfModalImg = document.getElementById("jsfImgF");
-    let soonModalImg = document.getElementById("soonImgF");
+    let dbModalImg = document.getElementById("dbImgF");
+    let dbAModalImg = document.getElementById("dbAImgF");
+    let cwModalImg = document.getElementById("cwImgF");
+     let soonModalImg = document.getElementById("soonImgF");
 
     let pbCaptionText = document.getElementById("pbCaption");
-    let pfCaptionText = document.getElementById("pfCaption");
     let stCaptionText = document.getElementById("stCaption");
-    let caCaptionText = document.getElementById("caCaption");
-    let cbCaptionText = document.getElementById("cbCaption");
-    let coaCaptionText = document.getElementById("coaCaption");
-    let jsfCaptionText = document.getElementById("jsfCaption");
+    let dbCaptionText = document.getElementById("dbCaption");
+    let dbACaptionText = document.getElementById("dbACaption");
+    let cwCaptionText = document.getElementById("cwCaption");
     let soonCaptionText = document.getElementById("soonCaption");
 
     pbImg.onclick = function(){
@@ -39,86 +33,65 @@
         pbCaptionText.innerHTML = this.alt;
     };
 
-    pfImg.onclick = function() {
-      pfModal.style.display = "block";
-      pfModalImg.src = this.src;
-      pfCaptionText.innerHTML = this.alt;
-    };
-
     stImg.onclick = function() {
-      stModal.style.display = "block";
-      stModalImg.src = this.src;
-      stCaptionText.innerText = this.alt;
+        stModal.style.display = "block";
+        stModalImg.src = this.src;
+        stCaptionText.innerText = this.alt;
     };
 
-    caImg.onclick = function() {
-      caModal.style.display = "block";
-      caModalImg.src = this.src;
-      caCaptionText.innerHTML = this.alt;
+    dbImg.onclick = function() {
+        dbModal.style.display = "block";
+        dbModalImg.src = this.src;
+        dbCaptionText.innerHTML = this.alt;
     };
 
-    cbImg.onclick = function() {
-        cbModal.style.display = "block";
-        cbModalImg.src = this.src;
-        cbCaptionText.innerHTML = this.src;
+    dbAImg.onclick = function() {
+        dbAModal.style.display = "block";
+        dbAModalImg.src = this.src;
+        dbACaptionText.innerHTML = this.alt;
     };
 
-    coaImg.onclick = function() {
-      coaModal.style.display = "block";
-      coaModalImg.src = this.src;
-      coaCaptionText.innerHTML = this.src;
-    };
-
-    jsfImg.onclick = function(){
-      jsfModal.style.display = "block";
-      jsfModalImg.src = this.src;
-      jsfCaptionText.innerHTML = this.src;
+    cwImg.onclick = function() {
+        cwModal.style.display = "block";
+        cwModalImg.src = this.src;
+        cwCaptionText.innerHTML = this.alt;
     };
 
     soonImg.onclick = function() {
-      soonModal.style.display = "block";
-      soonModalImg.src = this.src;
-      soonCaptionText.innerHTML = this.src;
+        soonModal.style.display = "block";
+        soonModalImg.src = this.src;
+        soonCaptionText.innerHTML = this.src;
     };
 
     let pbClose = document.getElementById("pbClose");
     let stClose = document.getElementById("stClose");
-    let caClose = document.getElementById("caClose");
-    let cbClose = document.getElementById("cbClose");
-    let coaClose = document.getElementById("coaClose");
-    let jsfClose = document.getElementById("jsfClose");
-    let soonClose = document.getElementById("soonClose");
+    let dbClose = document.getElementById("dbClose");
+    let dbAClose = document.getElementById("dbAClose");
+    let cwClose = document.getElementById("cwClose");
+
 
     pbClose.onclick = function() {
         pbModal.style.display = "none";
-    };
-
-    pfClose.onclick = function() {
-        pfModal.style.display = "none";
     };
 
     stClose.onclick = function () {
         stModal.style.display = "none";
     };
 
-    caClose.onclick = function () {
-        caModal.style.display = "none"
+    dbClose.onclick = function () {
+        dbModal.style.display = "none";
     };
 
-    cbClose.onclick = function () {
-      cbModal.style.display = "none"
+    dbAClose.onclick = function () {
+        dbAModal.style.display = "none";
     };
 
-    coaClose.onclick = function () {
-        coaModal.style.display = "none"
-    };
-
-    jsfClose.onclick = function () {
-      jsfModal.style.display = "none"
+    cwClose.onclick = function () {
+        cwModal.style.display = "none";
     };
 
     soonClose.onclick = function () {
-      soonModal.style.display = "none"
+        soonModal.style.display = "none"
     };
 })();
 

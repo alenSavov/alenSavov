@@ -1,0 +1,13 @@
+{
+  "particles":{
+    "number":{
+      "value":350
+    },
+    "color":{
+      "value": "#fff"
+    },
+    "shape": {
+      "type": "square"
+    }
+  }
+}

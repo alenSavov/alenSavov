@@ -48,6 +48,15 @@ body::-webkit-scrollbar-thumb {
     color: white;
 }
 
+.job-position {
+    margin: 0 auto;
+}
+
+.motto-text-wrapper {
+    width: 50%;
+    margin: 0 auto;
+}
+
 .title {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
